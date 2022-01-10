@@ -13,7 +13,7 @@ def handle_request(req:PatrolPointCallbackRequest):
     aruco_result = aruco_detect.call(ArucoDetectRequest())
     
     if aruco_result.id > 0:
-        pub.publish("I see a marker:"  + " " + str(aruco_result.id))
+        pub.publish("I am detecting a marker:"  + " " + str(aruco_result.id))
     else : 
         pub.publish("Marker not detected")    
 
