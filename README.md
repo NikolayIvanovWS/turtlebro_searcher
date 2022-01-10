@@ -2,6 +2,8 @@
 
 Для реализации патрулирования необходимо чтобы на роботе был установлен пакет ```turtlebro_patrol```
 
+https://github.com/voltbro/turtlebro_patrol
+
 #### Установить пакет ROS 
 
 ```
