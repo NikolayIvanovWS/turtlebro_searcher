@@ -6,7 +6,7 @@ https://github.com/voltbro/turtlebro_patrol
 #### Установить пакет ROS 
 
 ```
-cd ~catkin_ws/src
+cd ~/catkin_ws/src
 git clone https://github.com/NikolayIvanovWS/turtlebro_searcher
 cd ../
 catkin_make --pkg turtlebro_searcher
